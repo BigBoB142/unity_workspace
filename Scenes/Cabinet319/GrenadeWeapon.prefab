@@ -97,7 +97,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925592172238089480}
-  m_Mesh: {fileID: -5495902117074765545, guid: 1d3b1a0b7a6b625448496c39d20975ff, type: 3}
+  m_Mesh: {fileID: -5495902117074765545, guid: 1a9466aeb8ddb40419e8fe72d56c26df, type: 3}
 --- !u!23 &4820839277349169580
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -118,7 +118,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -3846018093981099296, guid: 1d3b1a0b7a6b625448496c39d20975ff, type: 3}
+  - {fileID: -3846018093981099296, guid: 1a9466aeb8ddb40419e8fe72d56c26df, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -446,7 +446,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3249028159098738697}
-  m_Mesh: {fileID: 4711208715938537054, guid: 1d3b1a0b7a6b625448496c39d20975ff, type: 3}
+  m_Mesh: {fileID: 4711208715938537054, guid: 1a9466aeb8ddb40419e8fe72d56c26df, type: 3}
 --- !u!23 &8912357712840313226
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -467,7 +467,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: 1d3b1a0b7a6b625448496c39d20975ff, type: 3}
+  - {fileID: -6478536213147159724, guid: 1a9466aeb8ddb40419e8fe72d56c26df, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -647,14 +647,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 3249028159098738697}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6e063f3435421604085d79fd262767b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6c43dc3a6422beb48876707872b8874c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
-  explosionRadius: 25
-  explosionForce: 100000
-  explosionEffect: {fileID: 8325593375310004968, guid: 0941c58570ed7484d8d640ef47e596a8, type: 3}
-  Pin: {fileID: 481621695119657033}
+  explosionRadius: 100
+  explosionForce: 2000
+  explosionEffect: {fileID: 0}
+  Pin: {fileID: 0}
 --- !u!1 &5059601834600021504
 GameObject:
   m_ObjectHideFlags: 0
