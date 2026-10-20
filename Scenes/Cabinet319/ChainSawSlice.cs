@@ -10,8 +10,6 @@ public class ChainSawSlicer : MonoBehaviour
     public Transform sliceEnd;
 
     [Header("Настройки резки")]
-    [Tooltip("Слой, на котором находятся разрезаемые объекты")]
-    public LayerMask sliceableLayer;
     [Tooltip("Материал для поверхности среза")]
     public Material crossSectionMaterial;
     [Tooltip("Задержка между резами в секундах")]
@@ -52,7 +50,7 @@ public class ChainSawSlicer : MonoBehaviour
     {
         if (!isActive) return;
         if (other.isTrigger) return;
-        if ((sliceableLayer.value & (1 << other.gameObject.layer)) == 0) return;
+        if (other.tag != "sliceable") return;
         if (slicedThisActivation.Contains(other.gameObject)) return;
 
         // Кулдаун — защита от мгновенного повторного реза
@@ -101,7 +99,7 @@ public class ChainSawSlicer : MonoBehaviour
         Rigidbody rb = part.AddComponent<Rigidbody>();
         MeshCollider collider = part.AddComponent<MeshCollider>();
         collider.convex = true;
-        part.layer = 3;
+        part.tag = "sliceable";
         part.AddComponent<XRGrabInteractable>();
 
         rb.velocity = originalVelocity;

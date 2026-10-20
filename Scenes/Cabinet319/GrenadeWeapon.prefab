@@ -651,10 +651,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
-  explosionRadius: 100
-  explosionForce: 2000
-  explosionEffect: {fileID: 0}
-  Pin: {fileID: 0}
+  explosionRadius: 30
+  explosionForce: 10000
+  explosionEffect: {fileID: 8325593375310004968, guid: 6d98a6a497a920f4aaf803059e22199a, type: 3}
+  Pin: {fileID: 481621695119657033}
 --- !u!1 &5059601834600021504
 GameObject:
   m_ObjectHideFlags: 0

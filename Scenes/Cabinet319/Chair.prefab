@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2139289292167588764}
   m_Layer: 0
   m_Name: Chair leg 1
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 7458685139445641356}
   m_Layer: 0
   m_Name: Chair leg 1 (1)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,7 +118,7 @@ GameObject:
   - component: {fileID: 1505726092449721930}
   m_Layer: 0
   m_Name: Chair leg 1 (9)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 9104796828941689750}
   m_Layer: 0
   m_Name: Chair leg 1 (3)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 4467759955975462319}
   m_Layer: 0
   m_Name: Chair leg 1 (8)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -277,7 +277,7 @@ GameObject:
   - component: {fileID: 917230392662797616}
   m_Layer: 0
   m_Name: Chair leg 1 (5)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,7 +330,7 @@ GameObject:
   - component: {fileID: 8208164178764343027}
   m_Layer: 0
   m_Name: Chair leg 1 (10)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 8263191205947681447}
   m_Layer: 0
   m_Name: Chair leg 1 (2)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 6243245674788143909}
   m_Layer: 0
   m_Name: Chair leg 1 (6)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -490,9 +490,9 @@ GameObject:
   - component: {fileID: 5091211441611816969}
   - component: {fileID: -1082923308148698761}
   - component: {fileID: 844921891990943395}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chair
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -584,7 +584,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5484563960844511095}
   serializedVersion: 4
-  m_Mass: 5
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -737,7 +737,7 @@ GameObject:
   - component: {fileID: 2169441955550277499}
   m_Layer: 0
   m_Name: Chair leg 1 (4)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -790,7 +790,7 @@ GameObject:
   - component: {fileID: 4103375013057639422}
   m_Layer: 0
   m_Name: Chair seat
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -843,7 +843,7 @@ GameObject:
   - component: {fileID: 5790965458194363054}
   m_Layer: 0
   m_Name: Chair seat 2
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 6549615998901691897}
   m_Layer: 0
   m_Name: Chair leg 1 (7)
-  m_TagString: Untagged
+  m_TagString: sliceable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
